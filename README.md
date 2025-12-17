@@ -23,4 +23,4 @@ cd react-product-catalog
 npm install
 
 # 4. Запускаем проект
-npm start
+npm run dev
