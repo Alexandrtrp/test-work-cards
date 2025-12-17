@@ -1,0 +1,25 @@
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 260px);
+  gap: 20px;
+  justify-content: center;
+  align-content: start;
+  min-height: 70vh;
+}
+
+.card {
+  min-height: 380px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.image {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+}
