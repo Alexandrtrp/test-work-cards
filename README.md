@@ -17,7 +17,7 @@
 git clone <repo_url>
 
 # 2. Переходим в папку проекта
-cd react-product-catalog
+cd '...'
 
 # 3. Устанавливаем зависимости
 npm install
